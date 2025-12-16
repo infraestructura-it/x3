@@ -180,5 +180,48 @@
         "x": 780,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "9b61e405044d222a",
+        "type": "change",
+        "z": "86a4dc43e870ead4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c845e820a39dada",
+        "type": "range",
+        "z": "86a4dc43e870ead4",
+        "minin": "",
+        "maxin": "",
+        "minout": "",
+        "maxout": "",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 710,
+        "y": 500,
+        "wires": [
+            []
+        ]
     }
 ]
